@@ -40,13 +40,13 @@ CHANNELS = []
 LINKS = []
 MAIN_CHANNELS = []
 MAIN_LINKS = []
-BOT_USERNAME = ("")
+BOT_USERNAME = ("aniversetestbot")
 
 bot = Bot(token=API_TOKEN)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
-START_ADMINS = []
+START_ADMINS = [6486825926]
 ADMINS = set(START_ADMINS)
 
 BOT_ACTIVE = True
